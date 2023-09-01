@@ -4,9 +4,17 @@
   <i class ="material-icons" style="font-size: 35px;">person</i>
 
   <mat-form-field appearance="fill">
-    <mat-label>Ingrese un nombre de usuario:</mat-label>
+    <mat-label>Ingrese un nombre de usuario</mat-label>
     <input [(ngModel)]="usuarios.nombre" matInput required>
 
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>seleccione un rol</mat-label>
+    <mat-select [(ngModel)]="usuarios.rol" required>
+      <mat-option value="vis">visitante</mat-option>
+      <mat-option value="adm">administrador</mat-option>
+    </mat-select>
   </mat-form-field>
 
   <mat-form-field>

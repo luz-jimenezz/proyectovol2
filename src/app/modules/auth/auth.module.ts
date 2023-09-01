@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 //SERVICIOS
 import { AuthService } from './sevices/auth.service';
 import { FormsModule } from "@angular/forms";
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -25,13 +26,15 @@ import { FormsModule } from "@angular/forms";
     MatInputModule,
     MatFormFieldModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    MatSelectModule
   ],
   exports:[
     MatIconModule,
     MatInputModule,
     MatFormFieldModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSelectModule
   ],
   providers:[AuthService]//proverdor -->servicio
 })

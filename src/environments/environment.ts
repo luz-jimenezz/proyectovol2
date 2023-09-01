@@ -2,14 +2,14 @@
 export const environment = {
   production: false,
   //SACAMOS EL cons, CAMBIAMOS EL "=" POR ":" Y SACAMOS EL ";"
-  firebaseConfig: {
-    apiKey: "AIzaSyBB_HIRBOv3XdnnqqNY-1A_uFdF0N4vGoM",
-    authDomain: "proyecto-17-8-23.firebaseapp.com",
-    projectId: "proyecto-17-8-23",
-    storageBucket: "proyecto-17-8-23.appspot.com",
-    messagingSenderId: "199239533877",
-    appId: "1:199239533877:web:35099453e1638be6d3787c",
-    measurementId: "G-CDVMJG5BY1"
+  firebaseConfig : {
+    apiKey: "AIzaSyBc7AGD_rRLqlGqIKmdolFW0SwLcQwuWas",
+    authDomain: "prueba-programacion-e315a.firebaseapp.com",
+    projectId: "prueba-programacion-e315a",
+    storageBucket: "prueba-programacion-e315a.appspot.com",
+    messagingSenderId: "603966807319",
+    appId: "1:603966807319:web:d790414aa935b1e9026b52",
+    measurementId: "G-DHQ481LB25"
   }
   //Configuracion de  FIREBASE en nuestra APP WEB
 
